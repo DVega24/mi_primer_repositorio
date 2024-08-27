@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jerseys Vega Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        #home {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #f4f4f4;
+        }
+        #products {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        #products article {
+            text-align: center;
+            width: 30%;
+        }
+        #products img {
+            max-width: 100%;
+            height: auto;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        #login-form {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #fff;
+        }
+        #login-form h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #login-form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        #login-form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        #login-form button {
+            width: 100%;
+            background-color: #007bff;
+            border: none;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #login-form button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jerseys Vega Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#login">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Bienvenidos a Jerseys Vega Store</h2>
+        <p>Encuentra los mejores jerseys de tus equipos favoritos.</p>
+        <br>
+        <img src="https://www.sopitas.com/wp-content/uploads/2024/07/jerseys-futbol-europeo-temporada-2024-2025.jpg" alt="imagen de judadores">
+        <p><a href="#products" style="text-decoration: none; font-weight: bold;">Ver Productos</a></p>
+    </section>
+
+    <section id="products">
+        <h2>Productos</h2>
+        <div>
+            <br><br><br><br><br><br>
+            <article>
+                <h3>Jersey CR7</h3>
+                <img src="https://images.footballfanatics.com/real-madrid/cristiano-ronaldo-white-real-madrid-autographed-2015-adidas-jersey_pi4404000_ff_4404561-bab97c075d8dbde71ef9_full.jpg?_hv=2" alt="Jersey CR7">
+                <p>Jersey Real Madrid de CR7.</p>
+                <p>Precio: $1700.00</p>
+                <button>Comprar</button>
+            </article>
+            <article>
+                <h3>Jersey Messi</h3>
+                <img src="https://images.footballfanatics.com/barcelona/lionel-messi-barcelona-autographed-2020-2021-home-jersey_pi4155000_ff_4155638-666c8403cce95e4a7945_full.jpg?_hv=2" alt="Jersey Messi">
+                <p>Jersey Barca de Messi.</p>
+                <p>Precio: $1900.00</p>
+                <button>Comprar</button>
+            </article>
+        </div>
+    </section>
+
+    <section id="login">
+        <div id="login-form">
+            <h2>Iniciar Sesión</h2>
+            <form action="#" method="post">
+                <label for="username">Usuario:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Para más información, contáctanos al correo: <a href="mailto:info@jerseyvegastore.com">info@jerseyvegastore.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tienda de Jerseys de Fútbol</p>
+    </footer>
+</body>
+</html>
