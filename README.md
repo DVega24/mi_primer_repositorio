@@ -30,5 +30,5 @@ Descripción breve sobre lo que hace el proyecto y su propósito.
 
 ## Autor
 
-Creado por [Tu Nombre](https://github.com/DVega24) - ¡Si te gusta el proyecto, no dudes en contactarme!
+Creado por [DVega24](https://github.com/DVega24) - ¡Si te gusta el proyecto, no dudes en contactarme!
 
