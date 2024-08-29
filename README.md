@@ -1,7 +1,6 @@
 # Mi primer readme 
 
 Descripción breve sobre lo que hace el proyecto y su propósito.
-https://img.shields.io/badge/any_text-you_like-blue
 
 ## Instalación
 
