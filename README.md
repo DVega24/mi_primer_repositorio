@@ -1,4 +1,4 @@
-# mi primer readme 
+# Mi primer readme 
 
 Descripción breve sobre lo que hace el proyecto y su propósito.
 
